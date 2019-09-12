@@ -1,0 +1,38 @@
+body{
+    background-image: url(images/Roland.jpg);
+    background-size: cover;  
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: coral;
+    box-shadow: 0 0 20px coral; 
+}
+
+.keys{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: flex-end;
+}
+
+kbd{
+    padding: 5px;
+    display: block;
+    font-size: 27px;
+    color: whitesmoke;
+}
+
+span{
+    color: orange;
+}
+
+.key{
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: all 0.1s;
+}
